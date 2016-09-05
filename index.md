@@ -6,13 +6,9 @@ Code sketching is a methodology for quickly exploring visual ideas by writing so
 ### Objective
 Students will leave this course knowing how to create and publish rich interactive data experiences on a schedule. They will be comfortable sketching and presenting rough ideas for feedback. They will favor an iterative design process to refine ideas and meet deadlines. Students will be able to articulate design  decisions made during project planning meetings.
 
-### Misc
-Small multiples in exercises (explore multiple parameter spaces simultaneously)
 
 ### Structure
-
-
-Over the course of 11 weeks each student will also lead a short critique on a data design they found in the wild. We use these show and tell sessions to hone our communication skills and to foster new ideas. In these presentations, students should:
+Over the course of 14 weeks each student will also lead a short critique on a data design they found in the wild. We use these show and tell sessions to hone our communication skills and to foster new ideas. In these presentations, students should:
 * Demonstrate the design to the class, discuss how it works, and who made it.
 * Tell us what is unique or inspirational about the work.
 * Suggest how the work could be improved.
