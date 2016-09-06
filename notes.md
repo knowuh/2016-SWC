@@ -1,8 +1,8 @@
-Readings introduce materials. 
-Lectures cover questions from the reading. 
-Start problem sets in class. 
+Readings introduce materials.
+Lectures cover questions from the reading.
+Start problem sets in class.
 Problem sets are due next class.
- 
+
 
  09-07 semester starts
 
@@ -24,7 +24,7 @@ Problem sets are due next class.
 
  14 days
 
- ARTE 5901.04 Sketching With Code  2016-NEU-SWC
+ ARTE 5901.04 Sketching With Code  2016-SWC
 
  4 main topics 3 days each? + 1
 
@@ -71,7 +71,7 @@ Thinking visually & interactively, modeling with pencil.
   * create github account
   * create github repo <ARTE-5901>
   * first  github page ARTE-5901/01/index.html
-    * should include 
+    * should include
 
 
 02: HTML CSS (dom).

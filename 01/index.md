@@ -14,13 +14,13 @@ we need to participate in this class. I hope to learn your names.
 ## Social guidelines
 * Fear & impostor syndrome.
 * Grow your peers.
-* Tone matters. 
+* Tone matters.
 * Be empathetic.
 * Assume good intentions.
 * Honor questions.
 * We won't know all the answers.
 
-## Question time: (15m)
+## Question time:
 * Backgrounds; who is from fine art, design, computation, or other?
 * Student goals and expectations for sketching with code.
 * Favorite class taken?
@@ -29,10 +29,11 @@ we need to participate in this class. I hope to learn your names.
 * Complete [online survey](https://docs.google.com/forms/d/1RvLaAHinst8UhbfZqr30kelJFN9M1W9uPuzJnMmhacg/viewform)
 * Look at [survey results](survey.html)
 
-## Your coach (10m)
-* Fine art Background, and computer interest from early age
-  * Mom
+## Your coach (me):
+* Fine art Background, and computer interest from early age.
+* UMASS CS mom
   * Punch cards
+  * Walking in the snow.
   * Photography
 * MassArt
   * SIM / Video
@@ -45,16 +46,21 @@ we need to participate in this class. I hope to learn your names.
 * Printing
 * Memory Issues
 
-## Personal data index cards (15m)
+## Personal data index cards
 * Help me learn your names, interests, talents.
 * I am visual learner, show me who you are.
-* This should be "functional".
-* 12 minutes to work.
+* 3 cards
+  * Pokémon card (baseball card).
+    * Portrait
+    * Stats
+    * Headline
+  * Mind Map. (Who are you?)
+  * Geographic Map. (Where are you?)
 * Present one index card.
 
-## Discuss Data Cards (15m)
+## Discuss Data Cards
 
-## Break 
+## Break
 
 ## Work expectations
 * We do the dishes.
