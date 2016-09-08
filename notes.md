@@ -3,6 +3,7 @@ Lectures cover questions from the reading.
 Start problem sets in class.
 Problem sets are due next class.
 
+https://www.scullinsteel.com/apple2/#dos33master
 
  09-07 semester starts
 
@@ -21,6 +22,10 @@ Problem sets are due next class.
      13 - 12-06 js: libraries: threejs
      14 - 12-13 ★ FINAL PRESENTATIONS.
 
+
+
+Visual Inspiration:
+Twitter Accounts to troll:
 
  14 days
 

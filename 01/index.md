@@ -1,4 +1,4 @@
-# Class 01:
+# Class 01 – 2016-09-13:
 
 ## Materials:
 * Pencils, index cards, sharpie, clip, stickers.
@@ -7,18 +7,16 @@
 * Handout: [Problem set 1](./ps01.html)
 
 ## Intro:
-We are here to get to know each other, review the syllabus, talk about
-our goals for this class, build a good culture, and get setup with the tools
-we need to participate in this class. I hope to learn your names.
+We are here to get to know each other, review the syllabus, talk about our goals, build a good culture, and get setup with the tools we need to participate in this class. I hope to learn your names.
 
 ## Social guidelines
 * Fear & impostor syndrome.
-* Grow your peers.
 * Tone matters.
 * Be empathetic.
 * Assume good intentions.
 * Honor questions.
 * We won't know all the answers.
+* Elevate your peers.
 
 ## Question time:
 * Backgrounds; who is from fine art, design, computation, or other?
@@ -26,20 +24,18 @@ we need to participate in this class. I hope to learn your names.
 * Favorite class taken?
 * Gauge interest level and existing experience with: Web development, Processing, D3, SVG, design, programming, critique, statistics, JSON, design process.
 * Other interests design, research, or technical experience?
-* Complete [online survey](https://docs.google.com/forms/d/1RvLaAHinst8UhbfZqr30kelJFN9M1W9uPuzJnMmhacg/viewform)
-* Look at [survey results](survey.html)
 
 ## Your coach (me):
 * Fine art Background, and computer interest from early age.
 * UMASS CS mom
-  * Punch cards
   * Walking in the snow.
+  * Punch cards
   * Photography
 * MassArt
   * SIM / Video
   * Walls
   * ICA
-* Web crazed 90's and $$
+* Web crazed 90's
 * MIT Media Lab / John Maeda
 * SNiF
 * Current Work life
@@ -56,54 +52,61 @@ we need to participate in this class. I hope to learn your names.
     * Headline
   * Mind Map. (Who are you?)
   * Geographic Map. (Where are you?)
-* Present one index card.
+* Pick one your index cards to talk about.
 
 ## Discuss Data Cards
 
 ## Break
 
 ## Work expectations
-* We do the dishes.
+* We do the dishes weekly:
+  * read the readings.
+  * do the problem sets.
+  * review everything next week.
 * We are experimenting, and taking risks.
-* The cadence of failure.
 * The secret of photography.
-* Sketch everything.
+* Sketch everything first. (3x)
 * Cheating when possible.
 * Stealing with respect.
 * Frame one thing.
-
 
 ## How problem sets work.
 * Lets review [the problem set guide](../ps-guide.html)
 
 ## Lecture: Git, github, assignment submission.
-* gauge: shell, editors, git, github, versioning tools.
 * git theory
 * git practice
-  * with github desktop client
-    * checkout
-    * pull
-    * branch
-    * commit
-    * pull request
   * from the shell
     * checkout
     * pull
     * branch
     * commit
     * pull request
+  * with github desktop client
+    * checkout
+    * pull
+    * branch
+    * commit
 
-## Coach does a simple first pass on PS1
-* brackets &etc
-* make folder
-* hello world example
+## Simple first pass on PS1
+* sign in as student user
+* signup for slack
+* signup for github account
+* post github username to slack
+* create new repo named 2016-SWC
+* use command line `git clone` to copy 2016-SWC repo
+* use git desktop to clone 2016-repo somewhere else
+* install atom
+  * install live-server package
+  * install
+* make an 01/index.html page
 
 ## Students work together to setup
 * Windows: mostly follow this [guide to installing node](http://blog.teamtreehouse.com/install-node-js-npm-windows)
     * [chrome](https://www.google.com/chrome/browser/desktop/)
     * [Cygwin](https://www.cygwin.com/)
     * [Github desktop](https://windows.github.com/)
-    * [brackets editor](http://brackets.io/)
+    * [atom editor](https://atom.io/)
     * options for later
       * [atom editor](https://atom.io/) (optional, any editor will do)
       * [node & npm](https://nodejs.org/en/)
@@ -111,7 +114,7 @@ we need to participate in this class. I hope to learn your names.
 * OSX:
     * [chrome](https://www.google.com/chrome/browser/desktop/)
     * [Github desktop](https://desktop.github.com/)
-    * [brackets editor](http://brackets.io/)
+    * [atom editor](https://atom.io/)
     * options for later
       * [atom editor](https://atom.io/) (optional, any editor will do)
       * [node & npm](https://nodejs.org/en/)

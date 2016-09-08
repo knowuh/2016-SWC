@@ -1,4 +1,4 @@
-# Sketching With Code.
+# Sketching With Code
 ## NEU ARTE 5901.04 – FALL 2016
 #### [Noah Paessel](mailto:n.paessel@neu.edu) @ 399 [Ryder Hall](https://www.northeastern.edu/campusmap/map/qad7.html)
 ##### Tuesdays 6:00pm - 9:00pm
@@ -33,17 +33,16 @@ Students will abide by Northeastern University’s [Academic Integrity Policy](h
 ##### Attendance
 Students are expected to attend all classes. Absence for health or personal reasons should be communicated to the lecturer. Tardiness and unexcused absences will impact student grades.
 
-### Schedule
-* 00-09-07 : semester starts
-* `01 - 09-13` : SWC hello & introductions. _reading: Handouts_
-* `02 - 09-20` : Git, HTML, linking & publishing. _reading: EJ.Intro_
-* `03 - 09-27` : HTML, CSS & behaviors. _reading: EJ.12, EJ.13(½)_
-* `04 - 10-04` : gestalt principles, SVG & JavaScript. _reading: Dondis handouts_
-* `05 - 10-11` : Interaction with the DOM. _reading: EJ.1, EJ.2, EJ.16_
+### Schedule:
+* [`01 - 09-13`](./01) : SWC hello & introductions. _reading: Handouts_
+* `02 - 09-20` : Git, HTML, linking & publishing. _reading: EJ.Intro, EJ.12_
+* `03 - 09-27` : HTML, CSS & behaviors. _reading: EJ.13(½), Dondis_
+* `04 - 10-04` : Gestalt principles, SVG & JavaScript. _reading:  EJ.1, EJ.2_
+* `05 - 10-11` : Interaction with the DOM. _reading: EJ.16_
 * `06 - 10-18` : Variables & loops. Canvas. _reading: EJ.3_
-* `07 - 10-25` : Stochastic process in art. _reading: EJ.4 & handouts_
-* `08 - 11-01` : Arrays & objects.
-* `09 - 11-08` : External libraries, build tools.  _reading: EJ.5_
+* `07 - 10-25` : Stochastic process & Fluxus. _reading: EJ.4 & handouts_
+* `08 - 11-01` : Arrays & objects. _reading: EJ.5_
+* `09 - 11-08` : External libraries, build tools.  
 * `10 - 11-15` : Interaction, interpolation & animation.
 * `11 - 11-22` : Interaction with services, JSON & callbacks.
 * `12 - 11-29` : Libraries & Frameworks: ThreeJS.
