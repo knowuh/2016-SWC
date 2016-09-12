@@ -68,7 +68,6 @@ We are here to get to know each other, review the syllabus, talk about our goals
 * Sketch everything first. (3x)
 * Cheating when possible.
 * Stealing with respect.
-* Frame one thing.
 
 ## How problem sets work.
 * Lets review [the problem set guide](../ps-guide.html)
@@ -89,16 +88,14 @@ We are here to get to know each other, review the syllabus, talk about our goals
     * commit
 
 ## Simple first pass on PS1
-* sign in as student user
-* signup for slack
-* signup for github account
+* install [chrome](https://www.google.com/chrome/browser/desktop/)
+* install [atom](https://atom.io/)
+* signup for [slack](https://2016-swc.slack.com/x-76283814564-76238175267/signup)
+* signup for [github](https://github.com/) account
 * post github username to slack
-* create new repo named 2016-SWC
-* use command line `git clone` to copy 2016-SWC repo
+* create new repo named `2016-SWC` (name is important, case sensitive)
+* use `git clone` to copy 2016-SWC into a `lab`, `projects` or similar folder.
 * use git desktop to clone 2016-repo somewhere else
-* install atom
-  * install live-server package
-  * install
 * make an 01/index.html page
 
 ## Students work together to setup
@@ -108,14 +105,14 @@ We are here to get to know each other, review the syllabus, talk about our goals
     * [Github desktop](https://windows.github.com/)
     * [atom editor](https://atom.io/)
     * options for later
-      * [atom editor](https://atom.io/) (optional, any editor will do)
       * [node & npm](https://nodejs.org/en/)
       * `npm install -g live-server`
-* OSX:
-    * [chrome](https://www.google.com/chrome/browser/desktop/)
-    * [Github desktop](https://desktop.github.com/)
-    * [atom editor](https://atom.io/)
-    * options for later
-      * [atom editor](https://atom.io/) (optional, any editor will do)
-      * [node & npm](https://nodejs.org/en/)
-      * `npm install -g live-server`
+
+* OSX:  
+  * [chrome](https://www.google.com/chrome/browser/desktop/)
+  * [git bash &etc](https://git-for-windows.github.io/h)
+  * [Github desktop](https://desktop.github.com/)        
+  * [atom editor](https://atom.io/)
+  * options for later
+    * [node & npm](https://nodejs.org/en/)
+    * `npm install -g live-server`
