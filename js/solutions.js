@@ -1,20 +1,16 @@
-var studentsS =""
-
-var students = studentsS.split(" ").sort();
-
 var addSolution = function (student, problemset) {
-  var url = "../" + student + "/" + problemset + "/index.html";
-  var tag = "<li><a href='" + url + "' target='_blank'>" + student + "</a></li>";
+  var name = student.name
+  var webpage = "http://" + student.github + ".github.io/2016-SWC/" + problemset
+  var github = "http://github.com/" + student.github
+  var tag = "<li><a href='" + webpage + "' target='_blank'>" + name + "</a></li>";
   $('#solutions').append($(tag));
 };
 
-var solutions = function (problemset) {
-  $('#dynamic-content').append($("<ul className='solutions' id='solutions'>"));
-  var i = 0;
-  var student = null;
-  for (i = 0; i < students.length; i++) {
-    student = students[i];
-    addSolution(student, problemset);
-  }
+window.solutions = function(problemset) {
+  $.getJSON( "../roster.json", function(students) {
+    $('#dynamic-content').append($("<ul className='solutions' id='solutions'>"));
+    for (var student of students) {
+      addSolution(student, problemset);
+    }
+  });
 };
-

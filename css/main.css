@@ -99,18 +99,30 @@ span.title::after {
   content: ":";
 }
 
-ul#solutions {
+
+#solutions {
+  display: block;
   margin: 0px;
+  margin-top: 50px;
   padding: 0px;
 }
-
-ul#solutions > li {
-  font-size: 14pt;
+#solutions > li {
   list-style: none;
   display: inline-block;
   padding: 0.5em 1em;
   margin: 0px 0px 0px 0px;
+  width: 9em;
 }
+@media (max-width: 30em) {
+  #solutions > li {
+    text-align: center;
+    width: 100%;
+    font-size: 14pt;
+  }
+}
+
+
+
 img.illustration {
   display: block;
   width: 100%;
