@@ -1,7 +1,8 @@
-
  Readings introduce materials. Lectures cover questions.
  Problem sets are for next class too.
  Start problem sets in class.
+
+
 
  09-07 semester starts
 
