@@ -1,6 +1,6 @@
-# Class 02 – 2016-09-23: Git, HTML, CSS. _reading: EJ.Intro, EJ.12_
+# Class 02 – 2016-09-23: Git, HTML, and CSS.
 
-## Omissions from last week
+## Omissions from last week:
 * The importance of making interesting mistakes.
 * If you are not making mistakes your not learning.
 * Minimalist first. No frameworks for now.
@@ -9,23 +9,24 @@
 * Browser caching (!) (dev tools)
 * People still need to register? Tell me QUICK!
 
-## Check on reading
+## Check on reading:
 * Summarize 'How To Survive A Critique'?
 * Summarize 'Social Rules for Learning'?
 * Tell me about 'well actually …'?
 * Tell me what `git pull` does?
 * What do we think of Daniel Shiffman?
+* How are we feeling about git?
 
-## Q & A and review of problem set
+## Questions and review problem set:
 * [ps-01](../01/ps01.html)
 * Missing from the assignments list? slack me your deets!
 
-## Git wrapup
+## Git wrapup:
 * Did anyone make a few repositories?
 * Did anyone make multiple commits?
 * Did anyone experiment with making branches?
 
-### Critical git concepts & terms
+### Critical git concepts & terms:
 * Git is a source control tool.
 * Git saves versions of your project.
 * Use `git commit` to make changes part of the permanent record.
@@ -35,42 +36,42 @@
 * Pictures and demo from github desktop client.
 * Alternate git client: [source tree](https://www.sourcetreeapp.com/)
 
-### Important git concepts & ideas
+### More git concepts & ideas:
 * historic versions of your project have a `sha1` label.
-* you can ignore some files. such as '.DS_Store'
+* You can ignore some files. such as '.DS_Store'
   * lets try removing it from github, and then ignoreing it.
 * you can use `git ceckout <sha1>` to time-travel to specific commits.
 * you can use `git checkout -b` to create a new branch.
 * you can include change from one branch into another using `git merge`
 * pictures and demo
 
-### git magic
-* git rebase <commit>
-* git reset <commit>
+### Git magic:
+* `git rebase <commit>`
+* `git reset <commit>`
 
-### Where to go for help
+### Where to go for help:
 * [stack overflow](http://stackoverflow.com/)
 * [slack](https://2016-swc.slack.com/messages/general/)
 * google
 
-### The web: HTML and CSS lecture / slides
+### Static site hosting:
+We can easily deploy static websites using github pages. There are other free / easy web publishing platforms too:
+* Dropbox.
+* [BitBalloon](https://www.bitballoon.com) (drag and drop)
+* [Surge](https://surge.sh/) (node)
+* [Figroll](https://www.figroll.io/)
+* Heroku, Firebase, &etc. 
+  
+### The web: HTML and CSS:
 * WE CANT DO THIS. ITS TOO MUCH.
-* Zines of the 1980s, 1990s.
-* Open source software.
-* Velcro or the WWW?
-* Tim Berners-Lee @ Cern in 1989
-  * 1.1B$ Annual budget. (NASA 2016 ~19B)
-  * Largest particle physics laboratory in the world. Established in 1954.
-  * The Wikipedia page for CERN Gushes about HTML & HTTP. Quieter about sub-atomic discoveries
-  * simulated [demo of first website](http://line-mode.cern.ch/www/hypertext/WWW/TheProject.html)
-  * ['modern' experience](http://info.cern.ch/hypertext/WWW/TheProject.html)
-* 'On 30 April 1993 CERN put the World Wide Web software in the **public domain**.'
-* Hyper Text Transfer Protocol.
+* Ommission of JavaScript
+* Copy and paste
 * Open [a page in Chrome](https://knowuh.github.io/2016-SWC/).  
   * View Source.
   * Copy and paste made the web explode.
   * Echos of DIY zine culture.
   * View developer tools.
+* Quick history (slides).
 * HTML Documentation from the Mozilla Developer Network
   * [Mozilla guide HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
    [introduction](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
@@ -119,7 +120,7 @@ Related reading and notes from
 * Anatomy of CSS Rule Set.
 * CSS selection of DOM Elements.
 * Basic CSS styles.
-  * fonts
+  * fonts & text
   * borders
   * colors
   * margins
