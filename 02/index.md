@@ -8,6 +8,7 @@
 * Openness and working in public & on github …
 * Browser caching (!) (dev tools)
 * People still need to register? Tell me QUICK!
+* Many folks need help configuring github pages.
 
 ## Check on reading:
 * Summarize 'How To Survive A Critique'?
