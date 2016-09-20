@@ -85,6 +85,11 @@ code {
   padding: .1em;
   border-radius: 4px;
 }
+a code {
+  text-decoration: none;
+  color: hsla(180, 60%, 30%, 1.0);
+  font-weight: bold;
+}
 
 span.description {
   font-weight: normal;

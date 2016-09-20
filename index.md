@@ -35,8 +35,8 @@ Students are expected to attend all classes. Absence for health or personal reas
 
 ### Schedule:
 * [`01 - 09-13`](./01) : SWC hello & introductions. _reading: Handouts_
-* `02 - 09-20` : Git, HTML, linking & publishing. _reading: EJ.Intro, EJ.12_
-* `03 - 09-27` : HTML, CSS & behaviors. _reading: EJ.13(½), Dondis_
+* [`02 - 09-20`](./02) : Git, HTML, linking & publishing. _reading: EJ.Intro, EJ.12_
+* `03 - 09-27` : Advanced CSS animation, behaviors. _reading: EJ.13(½), Dondis_
 * `04 - 10-04` : Gestalt principles, SVG & JavaScript. _reading:  EJ.1, EJ.2_
 * `05 - 10-11` : Interaction with the DOM. _reading: EJ.16_
 * `06 - 10-18` : Variables & loops. Canvas. _reading: EJ.3_
