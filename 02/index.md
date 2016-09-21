@@ -1,5 +1,6 @@
 # Class 02 – 2016-09-23: Git, HTML, and CSS.
 
+## New problem set [ps-02](ps-02.html)
 ## Omissions from last week:
 * The importance of making interesting mistakes.
 * If you are not making mistakes your not learning.
