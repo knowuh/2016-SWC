@@ -1,15 +1,31 @@
 body {
-  font-family: 'helvetica', sans-serif;
+  font-family: "Raleway: ;";
 }
+  .container {
 
-h1 {
-  font-weight: bold;
-}
+    background-color: black;
+    color: white;
 
-.main-content {
-  font-size: 1rem;
-}
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    top: 0px;
 
-div#body1 {
-  color: hsl(180,50%,50%);
-}
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  .inside {
+    background-color: red;
+    color: white;
+    font-size: 14pt;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid white;
+    width: 500px;
+  }
+  p {
+    border: 1px solid;
+  }
