@@ -7,7 +7,7 @@
 * The reading, should have helped with the problem set.
 * Missing PS-01 or PS-02 -- contact me!
 * Missing from the assignments list? slack me your details!
-* Review [ps-02](ps-02.html)
+* Review [ps-02](../02/ps-02.html)
   
  
 ### CSS   6:45 - 7:15
