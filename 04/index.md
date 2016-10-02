@@ -1,29 +1,29 @@
-# Class 03 – 2016-09-27: Git, HTML, and CSS.
+# Class 04 – 2016-10-04: Javascript: Variables & Loops
 
-## New problem set [ps-03](ps-03.html)
+## New problem set [ps-04](ps-04.html)
 
 
 ## Questions and review problem set:  5:45 – 6:45 
-* The reading, should have helped with the problem set.
-* Missing PS-01 or PS-02 -- contact me!
-* Missing from the assignments list? slack me your details!
-* Review [ps-02](ps-02.html)
-  
+* Review [ps-03](ps-03.html)
+* Questions  
  
-### CSS   6:45 - 7:15
-* Ways to include styling
-  * per-element
-  * inline stylesheet
-  * external file
-  * cascaded (multiple) files
-  * experiments in [sample](sample.html)
-* Position and Display
-  * Absolute, relative, fixed positioning  (float?)
-  * blocks vs. inline
-  * flexbox -- see [flexbox in 5](http://flexboxin5.com/)
-  * experiments in [sample](sample.html)
-* Example flexbox: Me as pokemon card.
+### JS: Variables and Types: 6:45 - 7:15
+* Numbers
+* Strings
+* Object
+* Null
+* Array
+* assignment
+* increment / change
+* comparison
 
+### JS: Loops
+* for
+* while
+
+### functions
+* arguments
+* 
 
 ### Javascript demo / intro  7:15- 8:15
 This is an context setting lecture and exploration. Its an overview, and as such will touch on ideas that we will have to revisit to fully digest.
@@ -50,8 +50,9 @@ This is an context setting lecture and exploration. Its an overview, and as such
 
 ### Codified process & instructions  8:15 - 8:45
 * Three Standard Stoppages.
+* The Fluxus games
 * Show some of Sols walls.
-* Show [github](https://github.com/wholepixel/solving-sol) ['solving sol'](http://solvingsol.com/solutions/).
+* Show github archive.
  
 
 
