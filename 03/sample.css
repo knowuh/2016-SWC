@@ -17,7 +17,20 @@ div, p {
   top: 0px;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: none;
+}
+
+.big {
+  display: block;
+  width: 90%;
+}
+
+.small {
+  display: none;
+  width: 90%;
 }
 
 .inside {
@@ -26,9 +39,26 @@ div, p {
   font-size: 14pt;
   margin: 1em;
   padding: 1em;
-  width: 500px;
+  width: 200px;
 }
 
+.inside:hover {
+  background-color: hsl(0,40%,40%);
+  transform: rotate(10deg);
+  transition: 2s;
+}
+
+@media (max-width: 600px) {
+  .big {
+    display: none;
+  }
+  .small {
+    display: block;
+  }
+  .inside {
+    width: 90%;
+  }
+}
 p {
   padding: 0.5em;
   background-color: hsl(0,0%,95%);

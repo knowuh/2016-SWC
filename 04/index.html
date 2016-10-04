@@ -25,72 +25,104 @@
     <div class="fixed-width">
         <h1 id="class-04-2016-10-04-javascript-variables-loops">Class 04 – 2016-10-04: Javascript: Variables &amp; Loops</h1>
 <h2 id="new-problem-set-ps-04-ps-04-html-">New problem set <a href="ps-04.html">ps-04</a></h2>
-<h2 id="questions-and-review-problem-set-5-45-6-45">Questions and review problem set:  5:45 – 6:45</h2>
+<h2 id="questions-and-review-problem-set-5-45-6-30">Questions and review problem set:  5:45 – 6:30</h2>
 <ul>
-<li>Review <a href="ps-03.html">ps-03</a></li>
-<li>Questions  </li>
+<li>Review <a href="../03/ps-03.html">ps-03</a></li>
 </ul>
-<h3 id="js-variables-and-types-6-45-7-15">JS: Variables and Types: 6:45 - 7:15</h3>
+<h2 id="recap-last-call-css-6-30-6-40">Recap &amp; last call CSS: 6:30 - 6:40</h2>
 <ul>
-<li>Numbers</li>
+<li>Marquee<ul>
+<li><a href="http://mrmrs.io/marquee/">animated ASCII ocean</a></li>
+</ul>
+</li>
+<li>Breakpoints &amp; Media queries<ul>
+<li><a href="../03/sample.html">sample</a></li>
+</ul>
+</li>
+<li>Viewport units<ul>
+<li>Setting a div full-height of window, eg: <code>.full-height { height: 100vh;}</code></li>
+<li>Responsive text: <code>.responsive-text { font-size: 4vw; }</code> (Text changes size as the viewport size changes)</li>
+</ul>
+</li>
+<li>CSS Transition<ul>
+<li>With Hover</li>
+</ul>
+</li>
+</ul>
+<h3 id="deep-thoughts-with-ada-and-linden-6-40-6-45">Deep Thoughts with Ada and Linden 6:40 - 6:45</h3>
+<h3 id="review-the-reading-6-50-7-30">Review the Reading. 6:50 – 7:30</h3>
+<ul>
+<li>Student summary</li>
+<li>These are the just building materials. Abstractions come later.</li>
+<li>JavaScript:<ul>
+<li>Variables &amp; types<ul>
+<li>Numbers (NaN +/- Infinity)</li>
 <li>Strings</li>
-<li>Object</li>
-<li>Null</li>
-<li>Array</li>
-<li>assignment</li>
-<li>increment / change</li>
-<li>comparison</li>
+<li>Boolean</li>
+<li>Function</li>
+<li>Undefined &amp; Null</li>
+<li>(forward arrays)</li>
+<li>(forward objects)</li>
+<li>Type-coersion</li>
 </ul>
-<h3 id="js-loops">JS: Loops</h3>
-<ul>
+</li>
+<li>Expressions  ( + / - *  &lt;, &gt;  == !==)</li>
+<li>Boolean operators<ul>
+<li>!  &amp;&amp;  ||</li>
+</ul>
+</li>
+<li>Control<ul>
 <li>for</li>
-<li>while</li>
+<li>while<ul>
+<li>break</li>
+<li>continue</li>
 </ul>
-<h3 id="functions">functions</h3>
-<ul>
+</li>
+</ul>
+</li>
+<li>Environment<ul>
+<li>alert, console, dom (window object)</li>
+<li>Math.random</li>
+</ul>
+</li>
+<li>Look ahead: Functions (brief intro)<ul>
+<li>using</li>
+<li>defining</li>
 <li>arguments</li>
-<li></li>
-</ul>
-<h3 id="javascript-demo-intro-7-15-8-15">Javascript demo / intro  7:15- 8:15</h3>
-<p>This is an context setting lecture and exploration. Its an overview, and as such will touch on ideas that we will have to revisit to fully digest.</p>
-<ul>
-<li>Some overarching comments about javascript&#39;s permissiveness.</li>
-<li>What does JavaScript look like?</li>
-<li>Different from HTML&#39;s declarative (descriptive) style. Its imperative / procedural. </li>
-<li>How do we include Javascript on our web pages?<ul>
-<li>Inline click handlers</li>
-<li>Inline <code>&lt;script&gt;</code> tags</li>
-<li>From external files.</li>
+<li>scope</li>
 </ul>
 </li>
-<li>When does javascript evaluate?</li>
-<li>JavaScript variables and types<ul>
-<li>Numbers</li>
-<li>Strings</li>
-<li>Arrays</li>
-<li>Objects</li>
-<li>Undefined</li>
+<li>Canvas observations (playing with <a href="../03/ps-03-starter.html">starter</a>)<ul>
+<li>Changing width &amp; height</li>
+<li>Scaling in CSS (preserve aspect ratio)</li>
 </ul>
 </li>
-<li>The global window object in the browser   <ul>
-<li>alert</li>
-<li>console</li>
-<li>debugger</li>
-<li>this</li>
+<li>Load Events<ul>
+<li><code>window.addEventListene(&#39;load&#39;,function);</code></li>
 </ul>
 </li>
-<li>Walk-through &amp; demo of <a href="ps-03-starter.html">ps-03-starter</a></li>
+<li>Click handlers<ul>
+<li><code>document.getElementById(&quot;test&quot;).addEventListener(&quot;click&quot;, function);</code></li>
 </ul>
-<h3 id="codified-process-instructions-8-15-8-45">Codified process &amp; instructions  8:15 - 8:45</h3>
-<ul>
-<li>Three Standard Stoppages.</li>
-<li>The Fluxus games</li>
-<li>Show some of Sols walls.</li>
-<li>Show github archive.</li>
+</li>
 </ul>
-<h3 id="online-css-tools-resources-">Online CSS Tools &amp; resources:</h3>
+</li>
+</ul>
+<h3 id="in-class-grid-7-30-8-45">In Class: Grid  7:30 - 8:45</h3>
 <ul>
-<li>CSS <a href="https://jigsaw.w3.org/css-validator/">validator</a></li>
+<li>Make a grid of squares<ul>
+<li>Simple</li>
+<li>Make the hue, saturation, lightness change in accordance to X or Y.</li>
+<li>Change square size based on X or Y</li>
+</ul>
+</li>
+<li>Abstract away the thing we are making a grid of<ul>
+<li>Variation wiggle</li>
+<li>Variation (each one different size)</li>
+<li>Variation (rotation / brightness / color?)</li>
+</ul>
+</li>
+<li>Abstract for the size of the grid, size of canvas.</li>
 </ul>
 
         <div id="dynamic-content"></div>

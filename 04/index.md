@@ -3,59 +3,71 @@
 ## New problem set [ps-04](ps-04.html)
 
 
-## Questions and review problem set:  5:45 – 6:45 
-* Review [ps-03](ps-03.html)
-* Questions  
+## Questions and review problem set:  5:45 – 6:30 
+* Review [ps-03](../03/ps-03.html)
+
+
+## Recap & last call CSS: 6:30 - 6:40
+* Marquee
+  * [animated ASCII ocean](http://mrmrs.io/marquee/)
+* Breakpoints & Media queries
+  * [sample](../03/sample.html)
+* Viewport units
+  * Setting a div full-height of window, eg: `.full-height { height: 100vh;}`
+  * Responsive text: `.responsive-text { font-size: 4vw; }` (Text changes size as the viewport size changes)
+* CSS Transition
+    * With Hover
+
+
+### Deep Thoughts with Ada and Linden 6:40 - 6:45
+
+###  Review the Reading. 6:50 – 7:30
+- Student summary
+- These are the just building materials. Abstractions come later.
+- JavaScript:
+    - Variables & types
+        - Numbers (NaN +/- Infinity)
+        - Strings
+        - Boolean
+        - Function
+        - Undefined & Null
+        - (forward arrays)
+        - (forward objects)
+        - Type-coersion
+    - Expressions  ( + / - *  <, >  == !==)
+    - Boolean operators
+        - !  &&  ||
+    - Control
+        - for
+        - while
+            - break
+            - continue
+    - Environment
+        - alert, console, dom (window object)
+        - Math.random
+    - Look ahead: Functions (brief intro)
+      - using
+      - defining
+      - arguments
+      - scope
+    - Canvas observations (playing with [starter](../03/ps-03-starter.html))
+      - Changing width & height
+      - Scaling in CSS (preserve aspect ratio)
+    - Load Events
+      - `window.addEventListene('load',function);`
+    - Click handlers
+      - `document.getElementById("test").addEventListener("click", function);`
+  
+
+### In Class: Grid  7:30 - 8:45
+- Make a grid of squares
+    - Simple
+    - Make the hue, saturation, lightness change in accordance to X or Y.
+    - Change square size based on X or Y
+- Abstract away the thing we are making a grid of
+    - Variation wiggle
+    - Variation (each one different size)
+    - Variation (rotation / brightness / color?)
+- Abstract for the size of the grid, size of canvas.
+
  
-### JS: Variables and Types: 6:45 - 7:15
-* Numbers
-* Strings
-* Object
-* Null
-* Array
-* assignment
-* increment / change
-* comparison
-
-### JS: Loops
-* for
-* while
-
-### functions
-* arguments
-* 
-
-### Javascript demo / intro  7:15- 8:15
-This is an context setting lecture and exploration. Its an overview, and as such will touch on ideas that we will have to revisit to fully digest.
-* Some overarching comments about javascript's permissiveness.
-* What does JavaScript look like?
-* Different from HTML's declarative (descriptive) style. Its imperative / procedural. 
-* How do we include Javascript on our web pages?
-  * Inline click handlers
-  * Inline `<script>` tags
-  * From external files.
-* When does javascript evaluate?
-* JavaScript variables and types
-  * Numbers
-  * Strings
-  * Arrays
-  * Objects
-  * Undefined
-* The global window object in the browser   
-  * alert
-  * console
-  * debugger
-  * this
-* Walk-through & demo of [ps-03-starter](ps-03-starter.html)
-
-### Codified process & instructions  8:15 - 8:45
-* Three Standard Stoppages.
-* The Fluxus games
-* Show some of Sols walls.
-* Show github archive.
- 
-
-
-### Online CSS Tools & resources:
-* CSS [validator](https://jigsaw.w3.org/css-validator/)
-
