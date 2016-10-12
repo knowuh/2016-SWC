@@ -42,5 +42,12 @@
 - Can we add time to our composition?
 
 ### Perception and Gestalt 8:30 – 8:45  
+- This was cut short, so we might redux that.
+
+### Example of canvas rotation and translation:
+ *  [demo](ps-05-starter.html)
+ *  [js source on github](https://github.com/knowuh/2016-SWC/tree/master/05/ps-05-starter.js)
+ *  [code-pen version (simpler)](http://codepen.io/knowuh/pen/PGZVzm)
+ 
 
  
