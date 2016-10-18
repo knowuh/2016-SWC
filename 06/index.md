@@ -5,11 +5,11 @@
 ## Questions and review problem set:  5:45 – 6:45 
 * Review [ps-05](../04/ps-05.html)
 
-## dishes: 6:45 - 7:15
+## Doin' Dishes: 6:45 - 7:15
 * Try starting homework before Tuesday.
 * One week from midpoint of class.
 * code-pen and slack when asking questions final projects.
-* Code hygiene: Indentation blocks. Linter?
+* Code hygiene: Indentation blocks.
 * Other questions to cover today?
 * Visual literacy reading.
 * Finish talking about Perception.
