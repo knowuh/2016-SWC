@@ -54,7 +54,7 @@ knowuh.drawTop = function(ctx) {
   // ctx.beginPath();
   // ctx.arc(horizontalCenter, 120, 120, 0, circleDegrees);
   // ctx.fill();
-  drawImage('head.jpg', ctx, 0, 0);
+  drawImage('//knowuh.github.io/2016-SWC/06/head.jpg', ctx, 0, 0);
 };
 
 knowuh.drawMiddle = function(ctx) {
