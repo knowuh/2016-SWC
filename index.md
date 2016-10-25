@@ -38,9 +38,9 @@ Students are expected to attend all classes. Absence for health or personal reas
 * [`02 - 09-20`](./02) : Git, HTML, linking & publishing. _reading: EJ.Intro, EJ.12_
 * [`03 - 09-27`](./03) : Advanced CSS, behaviors. _reading:  EJ.1, EJ.2 _
 * [`04 - 10-04`](./04) : Variables & loops. Canvas. _reading: EJ.3_
-* [`05 - 10-11`](./05) : Gestalt principles & JavaScript. _reading: Dondis (handout), EJ.13 _
+* [`05 - 10-11`](./05) : Gestalt principles & JavaScript. _reading: Dondis (handout), EJ.13_
 * [`06 - 10-18`](./06) : Interaction with the DOM. Exquisite Corpse _reading: EJ.16_ 
-* `07 - 10-25` : Stochastic process & Fluxus. _reading: EJ.4 & handouts_
+* [`07 - 10-25`](./07) : More canvas and interaction . _reading: EJ.4_
 * `08 - 11-01` : Arrays & Object itteration. _reading: EJ.5_
 * `09 - 11-08` : External libraries, build tools.  
 * `10 - 11-15` : Interaction, interpolation & animation.

@@ -3,7 +3,7 @@
 ## New problem set [ps-06](ps-06.html)
 
 ## Questions and review problem set:  5:45 – 6:45 
-* Review [ps-05](../04/ps-05.html)
+* Review [ps-05](../05/ps-05.html)
 
 ## Doin' Dishes: 6:45 - 7:15
 * Try starting homework before Tuesday.
