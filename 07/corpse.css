@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-#corpse {
+#secret-corpse {
   background-color: hsl(0,0%,90%);
 }
 .horizontal-bar {
