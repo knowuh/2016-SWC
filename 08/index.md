@@ -3,6 +3,8 @@
 ## New problem set [ps-08](ps-08.html)
 
 More working together today.
+Start thinking about your Final projects.
+Something small that you can accomplish in 2-3 weeks.
 
 
 ## Review problem set:  5:45 – 6:50 
