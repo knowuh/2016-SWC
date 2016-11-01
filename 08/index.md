@@ -22,10 +22,10 @@ More working together today.
     - ✔ HTML
     - ✔ CSS
     - ✔ Javascript
-    - jQuery
-    - SVG ★
-    - D3 ★
-    - ThreeJS ★
+    - ½ jQuery
+    - SVG ★ 
+    - [D3](https://d3js.org/) ★ 
+    - [ThreeJS](https://threejs.org/) ★ 
 - Concept topics
     - ✔ Variables
     - ✔ Functions
