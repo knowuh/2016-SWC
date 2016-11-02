@@ -1,4 +1,4 @@
-# Class 06 – 2016-11-01: Javascript: Canvas Simulations & emergent behavior
+# Class 08 – 2016-11-01: Javascript: Canvas Simulations & emergent behavior
 
 ## New problem set [ps-08](ps-08.html)
 

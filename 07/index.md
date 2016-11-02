@@ -1,4 +1,4 @@
-# Class 06 – 2016-10-25: Javascript: Canvas, Functions, Events
+# Class 07 – 2016-10-25: Javascript: Canvas, Functions, Events
 
 ## New problem set [ps-07](ps-07.html)
 

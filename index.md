@@ -42,11 +42,11 @@ Students are expected to attend all classes. Absence for health or personal reas
 * [`06 - 10-18`](./06) : Interaction with the DOM. Exquisite Corpse _reading: EJ.16_ 
 * [`07 - 10-25`](./07) : More canvas and interaction . _reading: EJ.4_
 * [`08 - 11-01`](./08) : Simulation & emergent behavior _reading: EJ.5_
-* `09 - 11-08` : External libraries, build tools.  
-* `10 - 11-15` : Interaction, interpolation & animation.
-* `11 - 11-22` : Interaction with services, JSON & callbacks.
+* [`09 - 11-08`](./09) : Simulation part II and tweening animation. 
+* `10 - 11-15` : SVG & D3 
+* `11 - 11-22` : D3: Working with JSON.
 * `12 - 11-29` : Libraries & Frameworks: ThreeJS.
-* `13 - 12-06` : Libraries & Frameworks: D3.
+* `13 - 12-06` : Using API's and foreign data.
 * `14 - 12-13` : Further reading, other stacks. Final projects.
 
 #### Books:
