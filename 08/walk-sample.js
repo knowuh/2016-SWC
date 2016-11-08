@@ -14,8 +14,10 @@ var clearCanvas = function() {
 }
 
 var wrap = function(someDot) {
-  someDot.x = someDot.x % width;
-  someDot.y = someDot.y % height;
+  someDot.x = someDot.x > width ? 0 : someDot.x;
+  someDot.x = someDot.x < 0 ? width : someDot.x;
+  someDot.y = someDot.y > height ? 0 : someDot.y;
+  someDot.y = someDot.y < 0 ? height : someDot.y;
 }
 
 var walk = function (someDot) {
@@ -43,8 +45,8 @@ var draw = function (someDot) {
   ctx.fillStyle = 'hsla(0,0%,100%,0.1)';
   ctx.fillRect(someDot.x, someDot.y, size, size);
 }
+
 var update = function() {
-  // clearCanvas();
   walk(dot);
   draw(dot);
 }
