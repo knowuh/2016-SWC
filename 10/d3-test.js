@@ -22,9 +22,9 @@ var myWeights = [
 var height = 500;
 var width = 500;
 
-var weightScale     = d3.scale.linear().domain([0,200]).range([height -10, 10]);
-var ageScale        = d3.scale.linear().domain([0,60]).range([10, width -10]);
-var ageToSatScale   = d3.scale.linear().domain([0,myWeights.length]).range([70, 0]);
+var weightScale     = d3.scaleLinear().domain([0,200]).range([height -10, 10]);
+var ageScale        = d3.scaleLinear().domain([0,60]).range([10, width -10]);
+var ageToSatScale   = d3.scaleLinear().domain([0,myWeights.length]).range([70, 0]);
 
 function weightToY (data) {
  return weightScale(data.weight);
@@ -48,5 +48,6 @@ svg.selectAll('circle')
   .style("cx", ageToX)
   .style("cy", weightToY)
   .style("fill", ageToColor)
+  .style("r", '3')
 
 

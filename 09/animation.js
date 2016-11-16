@@ -1,15 +1,15 @@
 var width = 500;
 var height = 500;
 var ctx = document.getElementById('canvas').getContext('2d');
-var animationSeconds = 10;
+var animationSeconds = 5;
 var drawingProps = { x: 0, y: 0, rotation:0 };
 
-var tween = new TWEEN.Tween(drawingProps)
-  .to({ x: width, y: height, rotation: 20 * Math.PI}, animationSeconds * 1000)
-  .onUpdate(repaint)
-  .repeat(Infinity)
-  // .easing(TWEEN.Easing.Cubic.In)
-  .start();
+var tween = new TWEEN.Tween(drawingProps);
+tween.to({ x: width, y: height, rotation: 20 * Math.PI}, animationSeconds * 1000)
+tween.onUpdate(repaint)
+tween.repeat(Infinity)
+tween.easing(TWEEN.Easing.Cubic.InOut)
+tween.start();
 
 function clearScreen() {
   ctx.fillStyle = 'hsla(0,0%,0%,1)';
@@ -31,9 +31,9 @@ function repaint() {
 }
 
 function animate(time) {
-    requestAnimationFrame(animate);
     TWEEN.update(time);
     repaint();
+    requestAnimationFrame(animate);
 };
 
 requestAnimationFrame(animate);

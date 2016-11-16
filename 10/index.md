@@ -16,7 +16,7 @@
 - Write some SVG by hand
 - Export some SVG from figma
 - Restyle it with css
-- Using [Snap SVG](http://snapsvg.io/docs/) to draw / animate:
+- Using [Snap SVG](http://snapsvg.io/docs/) to draw & animate SVG.
 - Simple code-pen example
 
 ### D3 7:30 - 8:45
@@ -25,4 +25,7 @@
 - How do we use it?
 - Go over the [example](d3-test.html)
 - Do a D3 experiment from scratch in code-pen.
+
+### UPDATE: (Important!): 
+In our in-class example, we added the circles width ('r') as s CSS property. This isn't supported on all browsers. Instead, its best to specify R in the SVG or using D3 sett
 
