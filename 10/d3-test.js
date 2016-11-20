@@ -21,10 +21,11 @@ var myWeights = [
 
 var height = 500;
 var width = 500;
+var margin = {left: 60, bottom: 60, right: 10, top: 10};
 
-var weightScale     = d3.scaleLinear().domain([0,200]).range([height -10, 10]);
-var ageScale        = d3.scaleLinear().domain([0,60]).range([10, width -10]);
-var ageToSatScale   = d3.scaleLinear().domain([0,myWeights.length]).range([70, 0]);
+var weightScale     = d3.scaleLinear().domain([0,200]).range([height - margin.bottom, margin.top]);
+var ageScale        = d3.scaleLinear().domain([0,60]).range([margin.left, width - margin.right]);
+
 
 function weightToY (data) {
  return weightScale(data.weight);
@@ -34,20 +35,39 @@ function ageToX (data) {
   return ageScale(data.age);
 };
 
-function ageToColor (data, counter) {
-  var sat = ageToSatScale(counter);
-  return "hsl(0,"+ sat +"%,70%)";
-};
-
 var svg = d3.select('svg');
+var axisBottom =d3.axisBottom(ageScale);
+var axisLeft =d3.axisLeft(weightScale);
+
 svg.selectAll('circle')
   .data(myWeights)
   .enter()
   .append("circle")
   .attr('class', 'weight')
-  .style("cx", ageToX)
-  .style("cy", weightToY)
-  .style("fill", ageToColor)
-  .style("r", '3')
+  .attr("cx", ageToX)
+  .attr("cy", weightToY)
+  .attr("fill", "hsl(0,40%,60%)")
+  .attr("r", '5');
 
+svg.append('g')
+  .attr("transform", "translate(0," + (height - margin.bottom) + ")")
+  .call(axisBottom);
 
+svg.append('g')
+  .attr("transform", "translate(" + margin.left + ",0)")
+  .call(axisLeft);
+
+// text label for the y axis
+svg.append("text")
+  .attr("transform", "rotate(-90)")
+  .attr("y", margin.left/3)
+  .attr("x", 0 - (height / 2))
+  .style("text-anchor", "middle")
+  .text("weight");
+
+// text label for the x axis
+svg.append("text")
+  .attr("y", height - margin.bottom/3)
+  .attr("x", width / 2)
+  .style("text-anchor", "middle")
+  .text("age");
