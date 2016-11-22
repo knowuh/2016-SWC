@@ -1,13 +1,13 @@
-# Class 09 – 2016-11-15: SVG and D3 (Part one)
+# Class 10 – 2016-11-15: SVG and D3 (Part one)
 
 ## New problem set [ps-10](ps-10.html)
 
 
-## Review problem set 09:  6:00 – 7:00 
-* Review [ps-09](../09/ps-09.html) 
+## Review problem set 09:  6:00 – 7:00
+* Review [ps-09](../09/ps-09.html)
  
 
-### SVG 7:00 - 7:30 
+### SVG 7:00 - 7:30
 - What is SVG?
 - When would we use it?
 - How can we use it?
