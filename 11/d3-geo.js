@@ -25,4 +25,23 @@ d3.json("simple-ma.json", function(data) {
     .attr("d", path);
 });
 
+d3.json("./noahs-geo.json", function(data) {
+
+  svg.selectAll(".places")
+    .data(data.features)
+    .enter().append('circle')
+    .attr('class','places')
+    .style("fill", "black")
+    .attr("r", 4)
+    .attr("cx", function(data) {
+      var x = projection(data.geometry.coordinates)[0];
+      return x;
+    })
+    .attr("cy", function(data) {
+      var y = projection(data.geometry.coordinates)[1];
+      console.log(y);
+      return y;
+    } );
+});
+
 

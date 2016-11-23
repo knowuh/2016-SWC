@@ -44,7 +44,7 @@ Students are expected to attend all classes. Absence for health or personal reas
 * [`08 - 11-01`](./08) : Simulation & emergent behavior _reading: EJ.5_
 * [`09 - 11-08`](./09) : Simulation part II and tweening animation. 
 * [`10 - 11-15`](./10) : SVG & D3 Part I
-* `11 - 11-22` : D3 part II.
+* [`11 - 11-22`](./11) : D3 part II.
 * `12 - 11-29` : Libraries & Frameworks: ThreeJS.
 * `13 - 12-06` : Using API's and foreign data.
 * `14 - 12-13` : Further reading, other stacks. Final projects.
