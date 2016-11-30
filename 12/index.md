@@ -8,29 +8,18 @@
 
 ### Questions about final projects.
 
-### ThreeJS: Some Demos.
-* Basic Scene setup
+### (ThreeJS): Some Demos.
+* Basic Scene
     * Coordinates
     * Cameras
     * Lights
 * Rendering basic objects like a cube
 * Building our own using vertices and faces:
-
-        var geometry = new THREE.Geometry();
-
-        geometry.vertices.push(
-          new THREE.Vector3( -10,  10, 0 ),
-          new THREE.Vector3( -10, -10, 0 ),
-          new THREE.Vector3(  10, -10, 0 )
-        );
-
-        geometry.faces.push( new THREE.Face3( 0, 1, 2 ) );
-
-        geometry.computeBoundingSphere();
-
+    * [example](./three/index.html)
 * Loading Geometry
-     * Quick plug for blender
-     * Quick plug for MagicaVoxel
+    * [example](./three/index2.html)
+    * [MagicaVoxel](https://ephtracy.github.io/) voxel tool which can export OBJ files.
+    * [Blender](https://www.blender.org/) is a free cross platform application for creating geometry.
 
 
 ### Work on final projects.
