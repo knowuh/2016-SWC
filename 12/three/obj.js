@@ -42,7 +42,7 @@ function addMesh(mesh) {
 }
 
 function render() {
-  window.requestAnimationFrame(this.render.bind(this));
+  window.requestAnimationFrame(render);
   // uncomment to automatically rotate mesh
   // meshes.forEach(function(mesh) {
   //   mesh.rotateY(0.01);
