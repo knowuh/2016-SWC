@@ -17,7 +17,7 @@
 * Building our own using vertices and faces:
     * [example](./three/index.html)
 * Loading Geometry
-    * [example](./three/index2.html)
+    * [example](./three/obj.html)
     * [MagicaVoxel](https://ephtracy.github.io/) voxel tool which can export OBJ files.
     * [Blender](https://www.blender.org/) is a free cross platform application for creating geometry.
 
