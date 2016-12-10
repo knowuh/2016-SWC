@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>D3 starter document</title>
+    <link rel="stylesheet" href="d3-tweets.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+      <script src="d3.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.js"></script>
+  </head>
+  <body>
+    <div class='horizontal-bar top'>
+      Retweets
+    </div>
+    <svg version="1.1"
+         width="1000" height="500"
+         xmlns="http://www.w3.org/2000/svg">
+    </svg>
+    <div class="bar footnote">
+      <div class="vertical">
+        Tweet: <span id="text" />
+      </div>
+      <div>
+        Retweet Count: <span id="retweet" />
+        Time: <span id="time" />
+      </div>
+    </div>
+    <script src="d3-tweets.js" charset="utf-8" defer></script>
+  </body>
